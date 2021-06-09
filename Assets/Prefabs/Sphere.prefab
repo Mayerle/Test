@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 3131111297170008567}
   - component: {fileID: 3131111297170008566}
   - component: {fileID: 3131111297170008562}
-  m_Layer: 0
+  - component: {fileID: 7304789082728039733}
+  m_Layer: 6
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,10 +107,25 @@ Rigidbody:
   m_GameObject: {fileID: 3131111297170008565}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 2
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7304789082728039733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3131111297170008565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ee950263c47f3646a93ef2f9463b4fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _redColor: {fileID: 2100000, guid: 46a401a8a607caf40a20b0ba813ff6da, type: 2}
+  _blackColor: {fileID: 2100000, guid: 79a6707bc8059dd40afd0d6c5d1104b1, type: 2}
+  _speed: 20
